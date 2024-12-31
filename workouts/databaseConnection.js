@@ -6,14 +6,13 @@ const uri = "mongodb://localhost/27017/mydatabase";
 
 const connectToDatabase = async () => {
     try {
-        await mongoose.connect(uri, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+        const connection = await mongoose.connect(uri);
+        const connectionDetails = `${connection.connection.host}:${connection.connection.port}/${connection.connection.name}`;
 
-        console.log('Connected to MongoDB');
+        console.log(`MongoDB connected: ${connectionDetails}`);
     } catch (error) {
-        console.error('Could not connect to MongoDB:', error);
+        console.error(`Database connection error: ${error.message}`);
+        process.exit(1);
     }
 };
 
