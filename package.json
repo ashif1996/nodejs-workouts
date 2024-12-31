@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-workouts",
+  "version": "1.0.0",
+  "description": "Explore this comprehensive [Node.js Roadmap](https://roadmap.sh/nodejs) to master Node.js step-by-step! 🚀",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
