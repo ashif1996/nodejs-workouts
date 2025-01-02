@@ -1,7 +1,7 @@
 {
   "name": "nodejs-workouts",
   "version": "1.0.0",
-  "description": "Explore this comprehensive [Node.js Roadmap](https://roadmap.sh/nodejs) to master Node.js step-by-step! 🚀",
+  "description": "A collection of Node.js examples and exercises to practice building backend applications, mastering core concepts, and exploring real-world use cases.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
