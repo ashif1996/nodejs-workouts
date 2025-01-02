@@ -21,7 +21,8 @@ Explore this comprehensive [Node.js Roadmap](https://roadmap.sh/nodejs) to maste
 ✅ Interact with databases and external APIs  
 ✅ Real-world Node.js best practices  
 
-> Click the link below to dive into the roadmap:  
+> Additional Resources:  
 🎯 [Node.js Roadmap](https://roadmap.sh/nodejs)  
+📚 [Node.js Notes](https://bronotes.super.site/week-7-node)  
 
 Happy Learning! 💻  
